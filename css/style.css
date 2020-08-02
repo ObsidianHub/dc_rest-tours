@@ -322,7 +322,7 @@ header ul li:hover:before {
 /* --------------------- SLIDER ------------------- */
 
 .content .slider {
-  margin-top: 150px;
+  padding-top: 150px;
   position: relative;
 }
 .content .slider-title {
@@ -447,7 +447,7 @@ header ul li:hover:before {
 /* --------------------- COUNTER ------------------- */
 
 .content .counter {
-  margin-top: 150px;
+  padding-top: 150px;
 }
 .content .counter-title {
   font-size: 32px;
