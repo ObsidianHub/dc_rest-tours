@@ -22,12 +22,8 @@ a:active {
 /* --------------------- ANIMATION --------------------- */
 
 .fade {
-  -webkit-animation-name: fade;
   animation-name: fade;
-  -webkit-animation-duration: 1.7s;
   animation-duration: 1.7s;
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.7s;
 }
 @-webkit-keyframes fade {
   from {
@@ -39,16 +35,14 @@ a:active {
 }
 @keyframes fade {
   from {
-    opacity: 0.1;
+    opacity: 0.5;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 .more-splash {
-  -webkit-animation-name: splash;
   animation-name: splash;
-  -webkit-animation-duration: 1.7s;
   animation-duration: 1.7s;
 }
 @-webkit-keyframes splash {
