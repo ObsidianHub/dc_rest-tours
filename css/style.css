@@ -485,9 +485,6 @@ header ul li:hover:before {
 .content .contact {
   width: 86%;
   height: 400px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   background-color: #373737;
   margin: 0 auto;
@@ -499,8 +496,6 @@ header ul li:hover:before {
 }
 .content .contact-img img {
   height: 550px;
-  -webkit-transform: translateY(-13%);
-  -ms-transform: translateY(-13%);
   transform: translateY(-13%);
 }
 .content .contact-form {
