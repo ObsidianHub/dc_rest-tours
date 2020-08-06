@@ -191,12 +191,7 @@ header ul li:hover:before {
 .content .info-header {
   width: 100%;
   height: 50px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 .content .info-header-tab {
@@ -212,7 +207,6 @@ header ul li:hover:before {
   height: 3px;
   background-color: #c78030;
   margin-top: 4px;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 .content .info-header-tab:hover:after {
@@ -220,12 +214,8 @@ header ul li:hover:before {
 }
 .content .info-tabcontent {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 50px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .content .info-tabcontent .description,
