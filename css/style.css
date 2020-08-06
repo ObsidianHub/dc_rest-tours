@@ -88,7 +88,6 @@ header ul li:after {
   height: 1px;
   background-color: #c78030;
   margin: 6px 0;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 header ul li:before {
@@ -98,7 +97,6 @@ header ul li:before {
   height: 1px;
   background-color: #c78030;
   margin: 6px 0;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
