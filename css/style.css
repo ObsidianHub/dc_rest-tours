@@ -592,8 +592,6 @@ header ul li:hover:before {
   left: 50%;
   top: 150px;
   width: 752px;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 .overlay .popup-close {
