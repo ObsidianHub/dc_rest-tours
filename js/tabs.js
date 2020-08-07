@@ -14,7 +14,13 @@
 
   hideTabContent(1);
 
-  function showTabContent() {}
+  function showTabContent(a) {
+    if (tabContent[a].classList.contains("hide")) {
+      hideTabContent(0);
+      tabContent[a].classList.remove("hide");
+      tabContent[a].classList.add("show");
+    }
+  }
 
   info.addEventListener("click", function (e) {
     let target = e.target;
