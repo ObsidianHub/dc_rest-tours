@@ -5,7 +5,14 @@
 
   console.log(tab[3]);
 
-  function hideTabContent() {}
+  function hideTabContent(a) {
+    for (let i = a; i < tabContent.length; i++) {
+      tabContent[i].classList.remove("show");
+      tabContent[i].classList.add("hide");
+    }
+  }
+
+  hideTabContent(1);
 
   function showTabContent() {}
 
