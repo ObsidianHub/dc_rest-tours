@@ -3,8 +3,6 @@
     tabContent = document.getElementsByClassName("info-tabcontent"),
     info = document.querySelector(".info-header");
 
-  console.log(tab[3]);
-
   function hideTabContent(a) {
     for (let i = a; i < tabContent.length; i++) {
       tabContent[i].classList.remove("show");
