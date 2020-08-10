@@ -33,11 +33,23 @@
     showSlides((slideIndex += n));
   }
 
+  function currentSlide(n) {
+    showSlides((slideIndex = n));
+  }
+
   prev.addEventListener("click", function () {
     plusSlides(-1);
   });
 
   next.addEventListener("click", function () {
     plusSlides(1);
+  });
+
+  dotsWrap.addEventListener("click", function (e) {
+    for (let i = 0; i < dots.length + 1; i++) {
+      if (e.target.classList.contains("dot") && e.target == dots[i - 1]) {
+        currentSlide(i);
+      }
+    }
   });
 })();
