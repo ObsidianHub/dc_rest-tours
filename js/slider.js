@@ -24,5 +24,7 @@
     for (let i = 0; i < dots.length; i++) {
       dots[i].classList.remove("dot-active");
     }
+
+    slides[slideIndex - 1].style.display = "block";
   }
 })();
