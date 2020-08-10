@@ -28,4 +28,8 @@
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].classList.add("dot-active");
   }
+
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
 })();
