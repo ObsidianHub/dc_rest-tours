@@ -36,4 +36,8 @@
   prev.addEventListener("click", function () {
     plusSlides(-1);
   });
+
+  next.addEventListener("click", function () {
+    plusSlides(1);
+  });
 })();
