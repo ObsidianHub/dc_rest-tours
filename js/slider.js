@@ -32,4 +32,8 @@
   function plusSlides(n) {
     showSlides((slideIndex += n));
   }
+
+  prev.addEventListener("click", function () {
+    plusSlides(-1);
+  });
 })();
