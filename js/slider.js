@@ -20,5 +20,9 @@
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
+
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].classList.remove("dot-active");
+    }
   }
 })();
