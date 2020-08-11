@@ -1,5 +1,5 @@
 (function () {
-  let deadline = "2020-08-10";
+  let deadline = "2021-01-01";
 
   function getTimeRemaining(endtime) {
     let total = Date.parse(endtime) - Date.parse(new Date()),
