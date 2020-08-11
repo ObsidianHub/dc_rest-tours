@@ -28,4 +28,12 @@
       totalValue.innerHTML = total;
     }
   });
+
+  place.addEventListener("change", function () {
+    if (restDays.value == "" || persons.value == "") {
+      totalValue.innerHTML = 0;
+    } else {
+      totalValue.innerHTML = total * this.options[this.selectedIndex].value;
+    }
+  });
 })();
