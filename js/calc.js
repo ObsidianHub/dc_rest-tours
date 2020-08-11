@@ -18,4 +18,14 @@
       totalValue.innerHTML = total;
     }
   });
+
+  restDays.addEventListener("change", function () {
+    daysSum = +this.value;
+    total = (daysSum + personsSum) * 400;
+    if (persons.value == "") {
+      totalValue.innerHTML = 0;
+    } else {
+      totalValue.innerHTML = total;
+    }
+  });
 })();
