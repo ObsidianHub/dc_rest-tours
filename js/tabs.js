@@ -9,7 +9,6 @@
       tabContent[i].classList.add("hide");
     }
   }
-
   hideTabContent(1);
 
   function showTabContent(a) {
