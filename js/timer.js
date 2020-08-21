@@ -1,5 +1,5 @@
 (function () {
-  let deadline = "2021-01-01";
+  let deadline = "2020-08-24";
 
   function getTimeRemaining(endtime) {
     let total = Date.parse(endtime) - Date.parse(new Date()),
@@ -25,7 +25,7 @@
       let time = getTimeRemaining(endtime);
       hours.innerHTML = time.hours;
       minutes.innerHTML = time.minutes;
-      seconds.innerHTML = time.seconds;
+      seconds.innerHTML = `${time.seconds < 10 ? "0" : ""}${time.seconds}`;
     }
 
     updateClock();
